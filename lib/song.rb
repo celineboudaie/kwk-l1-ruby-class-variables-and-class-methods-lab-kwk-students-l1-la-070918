@@ -8,13 +8,13 @@ class Song
 @name= name
 @artist= artist
 @genre= genre 
-@@song_count= 0
-@@song_count += 1
+@@count= 0
+@@count += 1
 end
 
-def self.song_count
-  @@song_count
+def self.count
+  @@count
 end
 end
 
-Song.song_count
+Song.count
